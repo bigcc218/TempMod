@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "temp-mod",
+	"version": "${version}",
+	"name": "Temp Mod",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/temp-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"name.temp_mod.TempMod"
+		],
+		"client":[
+			"name.temp_mod.TempModClient"
+		],
+		"fabric-datagen": [
+			"name.temp_mod.TempModDataGenerator"
+		]
+	},
+	"mixins": [
+		"temp-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.4",
+		"minecraft": "~1.19.3",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
