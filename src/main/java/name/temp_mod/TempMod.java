@@ -1,5 +1,7 @@
 package name.temp_mod;
 
+import name.temp_mod.registry.ModBlocks;
+import name.temp_mod.registry.ModItemGroup;
 import name.temp_mod.registry.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -21,6 +23,8 @@ public class TempMod implements ModInitializer {
         // Proceed with mild caution.
 
         ModItems.registerModItems();
-        LOGGER.info("Hello World!");
+        ModItemGroup.registerModItemGroup();
+        ModBlocks.registerModBlocks();
+        LOGGER.info("Done!");
     }
 }

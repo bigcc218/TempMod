@@ -1,4 +1,8 @@
 {
   "item.temp-mod.sitrine": "黄晶",
-  "item.temp-mod.raw_sitrine": "粗黄晶"
+  "item.temp-mod.raw_sitrine": "粗黄晶",
+  "itemgroup.temp-mod.sitrine": "黄晶矿",
+  "block.temp-mod.sitrine_block": "黄晶块",
+  "block.temp-mod.sitrine_ore": "黄晶矿",
+  "block.temp-mod.deepslate_sitrine_ore": "深板岩黄晶矿"
 }

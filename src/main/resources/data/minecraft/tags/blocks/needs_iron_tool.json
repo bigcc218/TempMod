@@ -1,0 +1,8 @@
+{
+  "replace": "false",
+  "values": [
+    "temp-mod:sitrine_ore",
+    "temp-mod:sitrine_block",
+    "temp-mod:deepslate_sitrine_ore"
+  ]
+}

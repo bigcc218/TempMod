@@ -12,8 +12,8 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
 
-    public static final Item SITRINE = registerItem("sitrine", new Item(new FabricItemSettings()));
-    public static final Item RAW_SITRINE = registerItem("raw_sitrine", new Item(new FabricItemSettings()));
+    public static final Item SITRINE = registerItem("sitrine", new Item(new FabricItemSettings()),ModItemGroup.SITRINE);
+    public static final Item RAW_SITRINE = registerItem("raw_sitrine", new Item(new FabricItemSettings()),ModItemGroup.SITRINE);
 
     public static Item registerItem(String name, Item item, ItemGroup... itemGroups) {
         Item registeredItem = Registry.register(Registries.ITEM, new Identifier(TempMod.MOD_ID, name), item);

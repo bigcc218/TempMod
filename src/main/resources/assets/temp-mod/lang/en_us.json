@@ -1,4 +1,8 @@
 {
   "item.temp-mod.sitrine": "Citrine",
-  "item.temp-mod.raw_sitrine": "Raw Citrine"
+  "item.temp-mod.raw_sitrine": "Raw Citrine",
+  "itemgroup.temp-mod.sitrine": "Citrine",
+  "block.temp-mod.sitrine_block": "Citrine Block",
+  "block.temp-mod.sitrine_ore": "Citrine Ore",
+  "block.temp-mod.deepslate_sitrine_ore": "Deepslate Sitrine Ore"
 }
